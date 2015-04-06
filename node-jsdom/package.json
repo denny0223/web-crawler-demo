@@ -1,0 +1,15 @@
+{
+  "name": "node-jsdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denny Huang",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^3.1.2",
+    "request": "^2.55.0"
+  }
+}
