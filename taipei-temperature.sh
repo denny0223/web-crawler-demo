@@ -1,0 +1,1 @@
+w3m -T text/html -dump https://tw.news.yahoo.com/weather-forecast/ | grep -A4  臺北 | tail -n1 | grep -o '[0-9]*' | xargs echo -n | awk '{printf("{\"cur\":%d, \"high\":%d, \"low\": %d}\n", $1, $2, $3)}'
